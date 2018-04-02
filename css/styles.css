@@ -6,21 +6,45 @@ body {
 
 }
 
-
-
-.nav-container>ul
-{
-
-display: flex;
-
+.nav-container > ul {
+    /*border-bottom: 1px solid black; im not sure if this border is good idea */
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: white;
+    filter: brightness(90%);
 
 }
 
+.nav-container > ul > li {
 
+    box-sizing: border-box;
+    padding: 30px 70px;
+    font-size: 19px;
+    transition: background-color 0.5s;
+
+}
+
+.nav-container > ul > li:hover {
+
+    background-color: wheat;
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+
+.nav-container > ul > li > a {
+    color: black;
+    text-decoration: none;
+
+}
 
 .header-wrapper {
     display: flex;
-    margin-top: 50px;
 
 }
 
@@ -42,4 +66,18 @@ display: flex;
     font-size: 55px;
     letter-spacing: 5px;
     margin: 0;
+}
+
+.h2__main {
+
+    text-align: center;
+    letter-spacing: 5px;
+
+}
+
+.main-wrapper {
+
+    box-sizing: border-box;
+    padding: 20px;
+
 }
