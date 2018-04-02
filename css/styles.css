@@ -1,5 +1,5 @@
 
-body{
+body {
 
     margin: 0;
     background-color: slategray;
@@ -7,33 +7,39 @@ body{
 }
 
 
-.header-wrapper
+
+.nav-container>ul
 {
-    display: flex;
+
+display: flex;
 
 
 }
 
 
-.header-container
-{
 
+.header-wrapper {
+    display: flex;
+    margin-top: 50px;
 
-    width:1400px;
+}
+
+.header-container {
+
+    width: 1400px;
     height: 500px;
     background-image: url("../img/header1.jpg");
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
-    filter:brightness(90%);
+    filter: brightness(90%);
 }
 
-.header__h1
-{
+.header__h1 {
     text-align: center;
-    line-height:300px;
-    color:white;
+    line-height: 300px;
+    color: white;
     font-size: 55px;
     letter-spacing: 5px;
-    margin:0px;
+    margin: 0;
 }
